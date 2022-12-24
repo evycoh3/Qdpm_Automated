@@ -1,0 +1,44 @@
+[INFO ] 2022-12-24 13:47:45.242 - helper.logger.MyLogger:startTestCase 18==>  
+
+************** Execution Started : tc_addTicket**************
+
+[INFO ] 2022-12-24 13:47:45.336 - helper.pages.BasePage:sendKeys 41==>  Send keys to  email:administrator@localhost.com
+[INFO ] 2022-12-24 13:47:45.421 - helper.pages.BasePage:sendKeys 41==>  Send keys to  password:administrator
+[INFO ] 2022-12-24 13:47:46.780 - helper.pages.BasePage:click 55==>  Clicked on login
+[INFO ] 2022-12-24 13:47:46.857 - helper.pages.BasePage:click 55==>  Clicked on Tickets
+[INFO ] 2022-12-24 13:47:47.134 - helper.pages.BasePage:click 55==>  Clicked on Add Ticket
+[INFO ] 2022-12-24 13:47:47.667 - helper.pages.BasePage:selectByVisibleText 72==>  select Test Project 1 from project name dropdown
+[INFO ] 2022-12-24 13:47:47.993 - helper.pages.BasePage:selectByVisibleText 72==>  select Hosting Support from ticket department dropdown
+[INFO ] 2022-12-24 13:47:48.201 - helper.pages.BasePage:selectByVisibleText 72==>  select Report a Bug from ticket type dropdown
+[INFO ] 2022-12-24 13:47:48.315 - helper.pages.BasePage:selectByVisibleText 72==>  select Open from ticket status dropdown
+[INFO ] 2022-12-24 13:47:48.411 - helper.pages.BasePage:sendKeys 41==>  Send keys to  ticket subject:Hello ticket
+[INFO ] 2022-12-24 13:47:48.770 - helper.pages.BasePage:sendKeys 41==>  Send keys to  ticket description:yes
+[INFO ] 2022-12-24 13:47:48.933 - helper.pages.BasePage:selectByVisibleText 72==>  select admin from ticket created by dropdown
+[INFO ] 2022-12-24 13:47:49.055 - helper.pages.BasePage:selectMultipleCheckBox 98==>  Select from ticket notify to dropdown [admin, manager]
+[INFO ] 2022-12-24 13:47:49.984 - helper.pages.BasePage:click 55==>  Clicked on save button
+[INFO ] 2022-12-24 13:47:49.985 - helper.logger.MyLogger:endTestCase 22==>  
+
+************** Execution End : tc_addTicket**************
+
+[INFO ] 2022-12-24 17:20:28.278 - helper.logger.MyLogger:startTestCase 18==>  
+
+************** Execution Started : tc_addTicket**************
+
+[INFO ] 2022-12-24 17:20:28.382 - helper.pages.BasePage:sendKeys 41==>  Send keys to  email:administrator@localhost.com
+[INFO ] 2022-12-24 17:20:28.476 - helper.pages.BasePage:sendKeys 41==>  Send keys to  password:administrator
+[INFO ] 2022-12-24 17:20:29.797 - helper.pages.BasePage:click 55==>  Clicked on login
+[INFO ] 2022-12-24 17:20:29.898 - helper.pages.BasePage:click 55==>  Clicked on Tickets
+[INFO ] 2022-12-24 17:20:30.167 - helper.pages.BasePage:click 55==>  Clicked on Add Ticket
+[INFO ] 2022-12-24 17:20:30.700 - helper.pages.BasePage:selectByVisibleText 72==>  select Test Project 1 from project name dropdown
+[INFO ] 2022-12-24 17:20:30.998 - helper.pages.BasePage:selectByVisibleText 72==>  select Hosting Support from ticket department dropdown
+[INFO ] 2022-12-24 17:20:31.229 - helper.pages.BasePage:selectByVisibleText 72==>  select Report a Bug from ticket type dropdown
+[INFO ] 2022-12-24 17:20:31.349 - helper.pages.BasePage:selectByVisibleText 72==>  select Open from ticket status dropdown
+[INFO ] 2022-12-24 17:20:31.505 - helper.pages.BasePage:sendKeys 41==>  Send keys to  ticket subject:Hello ticket
+[INFO ] 2022-12-24 17:20:31.768 - helper.pages.BasePage:sendKeys 41==>  Send keys to  ticket description:yes
+[INFO ] 2022-12-24 17:20:31.965 - helper.pages.BasePage:selectByVisibleText 72==>  select admin from ticket created by dropdown
+[INFO ] 2022-12-24 17:20:32.090 - helper.pages.BasePage:selectMultipleCheckBox 98==>  Select from ticket notify to dropdown [admin, manager]
+[INFO ] 2022-12-24 17:20:32.973 - helper.pages.BasePage:click 55==>  Clicked on save button
+[INFO ] 2022-12-24 17:20:32.973 - helper.logger.MyLogger:endTestCase 22==>  
+
+************** Execution End : tc_addTicket**************
+

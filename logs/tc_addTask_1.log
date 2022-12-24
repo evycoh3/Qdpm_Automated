@@ -1,0 +1,46 @@
+[INFO ] 2022-12-24 13:47:45.246 - helper.logger.MyLogger:startTestCase 18==>  
+
+************** Execution Started : tc_addTask**************
+
+[INFO ] 2022-12-24 13:47:45.340 - helper.pages.BasePage:sendKeys 41==>  Send keys to  email:administrator@localhost.com
+[INFO ] 2022-12-24 13:47:45.424 - helper.pages.BasePage:sendKeys 41==>  Send keys to  password:administrator
+[INFO ] 2022-12-24 13:47:46.775 - helper.pages.BasePage:click 55==>  Clicked on login
+[INFO ] 2022-12-24 13:47:46.849 - helper.pages.BasePage:click 55==>  Clicked on Tasks
+[INFO ] 2022-12-24 13:47:47.134 - helper.pages.BasePage:click 55==>  Clicked on Add Task
+[INFO ] 2022-12-24 13:47:47.664 - helper.pages.BasePage:selectByVisibleText 72==>  select Test Project 1 from project name dropdown
+[INFO ] 2022-12-24 13:47:47.993 - helper.pages.BasePage:selectByVisibleText 72==>  select Changes (Hourly rate $15.00) from task type dropdown
+[INFO ] 2022-12-24 13:47:48.179 - helper.pages.BasePage:sendKeys 41==>  Send keys to  task name:evy Task cycle 1
+[INFO ] 2022-12-24 13:47:48.301 - helper.pages.BasePage:selectByVisibleText 72==>  select Re-opened from task status dropdown
+[INFO ] 2022-12-24 13:47:48.431 - helper.pages.BasePage:selectByVisibleText 72==>  select Low from task priority dropdown
+[INFO ] 2022-12-24 13:47:48.613 - helper.pages.BasePage:selectByVisibleText 72==>  select Bug from task label dropdown
+[INFO ] 2022-12-24 13:47:48.848 - helper.pages.BasePage:selectMultipleCheckBox 98==>  Select from task Assigned to  dropdown [admin, developer]
+[INFO ] 2022-12-24 13:47:48.978 - helper.pages.BasePage:sendKeys 41==>  Send keys to  task description:my description
+[INFO ] 2022-12-24 13:47:49.058 - helper.pages.BasePage:selectByVisibleText 72==>  select developer from task created by dropdown
+[INFO ] 2022-12-24 13:47:50.005 - helper.pages.BasePage:click 55==>  Clicked on save button
+[INFO ] 2022-12-24 13:47:50.006 - helper.logger.MyLogger:endTestCase 22==>  
+
+************** Execution End : tc_addTask**************
+
+[INFO ] 2022-12-24 17:20:28.273 - helper.logger.MyLogger:startTestCase 18==>  
+
+************** Execution Started : tc_addTask**************
+
+[INFO ] 2022-12-24 17:20:28.382 - helper.pages.BasePage:sendKeys 41==>  Send keys to  email:administrator@localhost.com
+[INFO ] 2022-12-24 17:20:28.476 - helper.pages.BasePage:sendKeys 41==>  Send keys to  password:administrator
+[INFO ] 2022-12-24 17:20:29.813 - helper.pages.BasePage:click 55==>  Clicked on login
+[INFO ] 2022-12-24 17:20:29.891 - helper.pages.BasePage:click 55==>  Clicked on Tasks
+[INFO ] 2022-12-24 17:20:30.171 - helper.pages.BasePage:click 55==>  Clicked on Add Task
+[INFO ] 2022-12-24 17:20:30.700 - helper.pages.BasePage:selectByVisibleText 72==>  select Test Project 1 from project name dropdown
+[INFO ] 2022-12-24 17:20:31.013 - helper.pages.BasePage:selectByVisibleText 72==>  select Changes (Hourly rate $15.00) from task type dropdown
+[INFO ] 2022-12-24 17:20:31.192 - helper.pages.BasePage:sendKeys 41==>  Send keys to  task name:evy Task cycle 1
+[INFO ] 2022-12-24 17:20:31.327 - helper.pages.BasePage:selectByVisibleText 72==>  select Re-opened from task status dropdown
+[INFO ] 2022-12-24 17:20:31.434 - helper.pages.BasePage:selectByVisibleText 72==>  select Low from task priority dropdown
+[INFO ] 2022-12-24 17:20:31.657 - helper.pages.BasePage:selectByVisibleText 72==>  select Bug from task label dropdown
+[INFO ] 2022-12-24 17:20:31.951 - helper.pages.BasePage:selectMultipleCheckBox 98==>  Select from task Assigned to  dropdown [admin, developer]
+[INFO ] 2022-12-24 17:20:32.064 - helper.pages.BasePage:sendKeys 41==>  Send keys to  task description:my description
+[INFO ] 2022-12-24 17:20:32.157 - helper.pages.BasePage:selectByVisibleText 72==>  select developer from task created by dropdown
+[INFO ] 2022-12-24 17:20:33.118 - helper.pages.BasePage:click 55==>  Clicked on save button
+[INFO ] 2022-12-24 17:20:33.119 - helper.logger.MyLogger:endTestCase 22==>  
+
+************** Execution End : tc_addTask**************
+

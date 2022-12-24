@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mySuite">
+    <listeners>
+        <listener class-name="helper.reports.ListenerClass"></listener>
+    </listeners>
+    <test name="myTests" parallel="classes" thread-count="3">
+        <classes>
+            <class name="testcases.AddDiscussionTest">
+                <methods>
+                    <include name="tc_addDiscussionTest"/>
+                </methods>
+            </class>
+            <class name="testcases.AddTaskTest">
+                <methods>
+                    <include name="tc_addTask"/>
+                </methods>
+            </class>
+            <class name="testcases.AddTicketTest">
+                <methods>
+                    <include name="tc_addTicket"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

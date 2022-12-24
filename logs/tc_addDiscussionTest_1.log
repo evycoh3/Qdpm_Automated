@@ -1,0 +1,38 @@
+[INFO ] 2022-12-24 13:47:45.228 - helper.logger.MyLogger:startTestCase 18==>  
+
+************** Execution Started : tc_addDiscussionTest**************
+
+[INFO ] 2022-12-24 13:47:45.346 - helper.pages.BasePage:sendKeys 41==>  Send keys to  email:administrator@localhost.com
+[INFO ] 2022-12-24 13:47:45.431 - helper.pages.BasePage:sendKeys 41==>  Send keys to  password:administrator
+[INFO ] 2022-12-24 13:47:46.772 - helper.pages.BasePage:click 55==>  Clicked on login
+[INFO ] 2022-12-24 13:47:46.849 - helper.pages.BasePage:click 55==>  Clicked on Discussions
+[INFO ] 2022-12-24 13:47:47.134 - helper.pages.BasePage:click 55==>  Clicked on Add Discussion
+[INFO ] 2022-12-24 13:47:47.671 - helper.pages.BasePage:selectByVisibleText 72==>  select Test Project 1 from project name dropdown
+[INFO ] 2022-12-24 13:47:47.961 - helper.pages.BasePage:selectByVisibleText 72==>  select Open from discussion status dropdown
+[INFO ] 2022-12-24 13:47:48.312 - helper.pages.BasePage:selectMultipleCheckBox 98==>  Select from assigned to dropdown [admin, client, developer, manager]
+[INFO ] 2022-12-24 13:47:48.405 - helper.pages.BasePage:sendKeys 41==>  Send keys to  discussion name:evy discussion
+[INFO ] 2022-12-24 13:47:48.600 - helper.pages.BasePage:selectByVisibleText 72==>  select developer from discussion created by dropdown
+[INFO ] 2022-12-24 13:47:49.688 - helper.pages.BasePage:click 55==>  Clicked on save button
+[INFO ] 2022-12-24 13:47:49.690 - helper.logger.MyLogger:endTestCase 22==>  
+
+************** Execution End : tc_addDiscussionTest**************
+
+[INFO ] 2022-12-24 17:20:28.259 - helper.logger.MyLogger:startTestCase 18==>  
+
+************** Execution Started : tc_addDiscussionTest**************
+
+[INFO ] 2022-12-24 17:20:28.384 - helper.pages.BasePage:sendKeys 41==>  Send keys to  email:administrator@localhost.com
+[INFO ] 2022-12-24 17:20:28.475 - helper.pages.BasePage:sendKeys 41==>  Send keys to  password:administrator
+[INFO ] 2022-12-24 17:20:29.802 - helper.pages.BasePage:click 55==>  Clicked on login
+[INFO ] 2022-12-24 17:20:29.898 - helper.pages.BasePage:click 55==>  Clicked on Discussions
+[INFO ] 2022-12-24 17:20:30.171 - helper.pages.BasePage:click 55==>  Clicked on Add Discussion
+[INFO ] 2022-12-24 17:20:30.700 - helper.pages.BasePage:selectByVisibleText 72==>  select Test Project 1 from project name dropdown
+[INFO ] 2022-12-24 17:20:30.976 - helper.pages.BasePage:selectByVisibleText 72==>  select Open from discussion status dropdown
+[INFO ] 2022-12-24 17:20:31.335 - helper.pages.BasePage:selectMultipleCheckBox 98==>  Select from assigned to dropdown [admin, client, developer, manager]
+[INFO ] 2022-12-24 17:20:31.479 - helper.pages.BasePage:sendKeys 41==>  Send keys to  discussion name:evy discussion
+[INFO ] 2022-12-24 17:20:31.644 - helper.pages.BasePage:selectByVisibleText 72==>  select developer from discussion created by dropdown
+[INFO ] 2022-12-24 17:20:32.812 - helper.pages.BasePage:click 55==>  Clicked on save button
+[INFO ] 2022-12-24 17:20:32.813 - helper.logger.MyLogger:endTestCase 22==>  
+
+************** Execution End : tc_addDiscussionTest**************
+
